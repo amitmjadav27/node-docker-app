@@ -4,7 +4,7 @@ name: CI/CD Pipeline for Node.js Docker App
 on:
   push:
     branches:
-      - main  # Replace with your default branch name
+      - master  # Replace with your default branch name
 
 jobs:
   build-and-deploy:
